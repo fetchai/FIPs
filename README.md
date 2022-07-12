@@ -70,22 +70,22 @@ If after `<author_response_wait_time>` time, the author does not respond to this
 - **Withdrawn;** The FIP is withdrawn. This state has finality and the FIP can no longer be resurrected using this FIP number. It is clear that every FIP that is withdrawn is automatically in the Idea state because the discussions related to it still exist and can be referred back to and continued. If the idea is pursued at a later date, it is considered a new proposal and must use a new FIP number.
 - **Accepted:** A FIP that is accepted either after a governance vote or without one.
   - **To Living:** For a FIP to be living, its status (a part of the FIP’s specification) will be changed to “Living”.
-- **Living:** This is a special state for FIPs which can be continually updated after acceptance. Most notable such FIP is FIP-000.
+- **Living:** This is a special state for FIPs which can be continually updated after acceptance. Most notable such FIP is [FIP-000](https://github.com/fetchai/FIPs/blob/main/FIPs/fip-000.md).
 
 ### Instructions for Authors
 
 #### Idea
 
-1. Scan [existing FIPs](), [documentation](docs.fetch.ai) and [discussions]() to ensure your proposal is not an existing feature or one that is being considered via an existing or in-progress FIP or discussed by others.
-2. Initiate discussions and/or informal polls about the topic to assess its popularity, gather feedback, receive alternatives and generally gauge community support. You can use the [“Discussions” part of the FIPs repo]() or [other technical repos](#technical-track) for this purpose.
+1. Scan [existing FIPs](https://github.com/fetchai/FIPs/tree/main/FIPs), [documentation](https://docs.fetch.ai) and [discussions](https://github.com/fetchai/FIPs/discussions) to ensure your proposal is not an existing feature or one that is being considered via an existing or in-progress FIP or discussed by others.
+2. Initiate discussions and/or informal polls about the topic to assess its popularity, gather feedback, receive alternatives and generally gauge community support. You can use the [“Discussions” part of the FIPs repo](https://github.com/fetchai/FIPs/discussions) or [other technical repos](#technical-track) for this purpose.
 3. If the idea proves sound and popular after engaging with the community, you can open a pull request with your FIP in the FIP repository. To do so:
    1. Fork the repository by hitting Fork in the top right.
    2. Add your FIP to your fork of the repository, ensuring that it conforms with the [formatting guidelines](#formatting-and-template).
-   3. Submit a pull request to the [FIPs repository]().
+   3. Submit a pull request to the [FIPs repository](https://github.com/fetchai/FIPs).
 4. If you do not know how to use the git command line interface, you can follow this instruction to opening a pull request on GitHub’s website:
    1. Ensure you are logged into your GitHub account
    2. Note the correct [next FIP number](#next-fip-number-002).
-   3. Go to the [FIPs directory]() and hit **Add file** then **Create new file**.
+   3. Go to the [FIPs directory](https://github.com/fetchai/FIPs/tree/main/FIPs) and hit **Add file** then **Create new file**.
    4. In the **Name your file...** field, enter `fip-xxx.md` replacing `xxx` with the fip number you noted above.
    5. Under **<> Edit new file**, you can write the content of the FIP. Make sure it conforms with the [formatting guidelines](#formatting-and-template). To make it easier, you can copy and paste [this template](./fip-template.md) and make your edits. Ensure FIP’s `status` is `draft` and that you leave `Withdrawal-reason` empty.
    6. Once finished, under **Commit new file**, write `creation` in the first field, leave the next field empty, and ensure you select **Create a new branch for this commit...**. In the field that appears, enter `fip-xxx` replacing `xxx` with the FIP’s number.
@@ -148,7 +148,7 @@ Each FIP must begin with an [RFC 822](https://www.ietf.org/rfc/rfc822.txt) style
 - `title`: The FIP title is a few words, not a complete sentence
 - `author`: The list of the author’s or authors’ name(s) and/or username(s), or name(s) and email(s).
 - `description`: Description is one full (short) sentence
-- `discussions-to`: The url pointing to relevant discussion threads and polls (preferrably [GitHub discussions on the FIP repository]() or [other repositories](#technical-track)
+- `discussions-to`: The url pointing to relevant discussion threads and polls (preferrably [GitHub discussions on the FIP repository](https://github.com/fetchai/FIPs/discussions) or [other repositories](#technical-track)
 - `status`: One of `Draft`, `In-review`, `Voting`, `Accepted`, `Withdrawn`, `Living` (the `change needed` state is a part of `In-review`)
 - `type`: [One of `Technical` , `Standards` , or `Ecosystem`](#fip-types-and-scope)
 - `created`: Date the FIP was created
