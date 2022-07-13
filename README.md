@@ -88,11 +88,11 @@ If after `<author_response_wait_time>` time, the author does not respond to this
    3. Go to the [FIPs directory](https://github.com/fetchai/FIPs/tree/main/FIPs) and hit **Add file** then **Create new file**.
    4. In the **Name your file...** field, enter `fip-xxx.md` replacing `xxx` with the fip number you noted above.
    5. Under **<> Edit new file**, you can write the content of the FIP. Make sure it conforms with the [formatting guidelines](#formatting-and-template). To make it easier, you can copy and paste [this template](./fip-template.md) and make your edits. Ensure FIP’s `status` is `draft` and that you leave `Withdrawal-reason` empty.
-   6. Once finished, under **Commit new file**, write `creation` in the first field, leave the next field empty, and ensure you select **Create a new branch for this commit...**. In the field that appears, enter `fip-xxx` replacing `xxx` with the FIP’s number.
-   7. At this point, copy the FIP’s preamble (the text between `---`) into the clipboard and hit **Propose new file**.
+   6. Once finished, under **Commit new file**, write `creation` in the first field and leave the next field empty. Then ensure **Create a new branch for this commit...** is selected and in the field undernead, enter `fip-xxx` replacing `xxx` with the FIP’s number.
+   7. At this point, copy the FIP’s header (the text between `---` at the top of the main FIP content) into the clipboard and hit **Propose new file**.
    8. In the next screen, change title from `creation` to `fip-xxx` replacing `xxx` with the FIP’s number.
    9. Where it says **Leave a comment**, paste the preamble.
-   10. On the green button, hit the arrow and select Create** draft pull request**, then hit the green button.
+   10. On the green button, hit the arrow and select **Create draft pull request**, then hit the green button.
    11. Under **Reviewers** on the right hand side, hit the cog icon and select a few names to review this FIP’s pull request.
 
 #### Draft
