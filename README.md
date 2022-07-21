@@ -1,4 +1,4 @@
-## Next FIP number: 002
+## Next FIP number: 003
 
 # Fetch Improvement Proposals (FIP)
 
