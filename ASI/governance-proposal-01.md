@@ -22,7 +22,7 @@ We have a number of exciting plans of collaboration between the three teams, how
 
 An important first step to enable tighter cohesion between the three ecosystems is to have a single utility token for all of our projects. This enables easy interoperability between all of the ecosystems.
 
-We are planning on creating the ASI token; short for “Artificial Superintelligence”. We feel this name reflects our combined vision of the future. This will make the new ASI network the central hub of Web3 AI.
+We are planning on creating the ASI token; short for “**A**rtificial **S**uper**i**ntelligence”. We feel this name reflects our combined vision of the future. This will make the new ASI network the central hub of Web3 AI.
 
 This proposal sets out to both rename the existing FET token to ASI as well as rename the Fetch network into the ASI network. This renaming process will broadly affect users in the following ways:
 
