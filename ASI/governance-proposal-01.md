@@ -58,7 +58,7 @@ We will communicate with the community after the vote and provide a more detaile
 
 ## Proposal Scope
 
-This proposal covers the transition of FET token to the new ASI token and the preparation of the merger of the three projects. The following is a summary of the scope of the proposal.
+**This proposal covers the transition of FET token to the new ASI token and the preparation of the merger of the three projects.** The following is a summary of the scope of the proposal.
 
 * The rename of the network and token.
 * A hard fork of the FET tokens contracts on the ETH and BSC networks.
