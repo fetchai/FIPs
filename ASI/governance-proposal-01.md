@@ -46,8 +46,8 @@ It is difficult to give an exact timeline for the changes to the protocol due to
 
 1. Governance proposal submitted
 2. Governance proposal completes and result is collected
-  * FET token renaming starts
-  * Main network migration
+    * FET token renaming starts
+    * Main network migration
 3. Fork of ETH and BSC token contracts
 4. Centralized exchanges perform token migration
 5. AGIX token conversion to ASI starts
